@@ -1,0 +1,20 @@
+GET http://localhost:8080/hello
+
+###
+GET http://localhost:8088/school
+
+###
+POST http://localhost:8088/hellopost
+Content-Type: application/x-www-form-urlencoded
+
+name=tom &
+age=20
+
+###
+GET http://localhost:8088/fruits/list
+
+###
+POST http://localhost:8088/fruits/listname
+Content-Type: application/x-www-form-urlencoded
+
+f_name=on

@@ -1,0 +1,313 @@
+2024-07-01 11:09:29.634 INFO  com.etc.mywiki.MyWikiApplication                  :50   [32m                  [0;39m Starting MyWikiApplication using Java 17.0.9 with PID 16388 (E:\Chinasofti_ETC\北京工商学院\MyWiki\target\classes started by Administrator in E:\Chinasofti_ETC\北京工商学院\MyWiki)
+2024-07-01 11:09:29.637 INFO  com.etc.mywiki.MyWikiApplication                  :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-07-01 11:09:30.457 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8080 (http)
+2024-07-01 11:09:30.467 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-01 11:09:30.469 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-07-01 11:09:30.470 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-01 11:09:30.515 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-07-01 11:09:30.516 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 829 ms
+2024-07-01 11:09:30.872 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2024-07-01 11:09:30.887 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8080 (http) with context path ''
+2024-07-01 11:09:30.895 INFO  com.etc.mywiki.MyWikiApplication                  :56   [32m                  [0;39m Started MyWikiApplication in 1.766 seconds (process running for 2.327)
+2024-07-01 11:12:12.971 INFO  com.etc.mywiki.MyWikiApplication                  :50   [32m                  [0;39m Starting MyWikiApplication using Java 17.0.9 with PID 18496 (E:\Chinasofti_ETC\北京工商学院\MyWiki\target\classes started by Administrator in E:\Chinasofti_ETC\北京工商学院\MyWiki)
+2024-07-01 11:12:12.974 INFO  com.etc.mywiki.MyWikiApplication                  :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-07-01 11:12:13.817 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8080 (http)
+2024-07-01 11:12:13.828 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-01 11:12:13.831 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-07-01 11:12:13.832 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-01 11:12:13.883 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-07-01 11:12:13.884 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 861 ms
+2024-07-01 11:12:14.261 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2024-07-01 11:12:14.278 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8080 (http) with context path ''
+2024-07-01 11:12:14.288 INFO  com.etc.mywiki.MyWikiApplication                  :56   [32m                  [0;39m Started MyWikiApplication in 1.838 seconds (process running for 2.389)
+2024-07-01 11:13:50.924 INFO  com.etc.mywiki.MyWikiApplication                  :50   [32m                  [0;39m Starting MyWikiApplication using Java 17.0.9 with PID 1116 (E:\Chinasofti_ETC\北京工商学院\MyWiki\target\classes started by Administrator in E:\Chinasofti_ETC\北京工商学院\MyWiki)
+2024-07-01 11:13:50.927 INFO  com.etc.mywiki.MyWikiApplication                  :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-07-01 11:13:51.871 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8080 (http)
+2024-07-01 11:13:51.881 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-01 11:13:51.883 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-07-01 11:13:51.884 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-01 11:13:51.933 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-07-01 11:13:51.933 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 953 ms
+2024-07-01 11:13:52.289 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2024-07-01 11:13:52.311 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8080 (http) with context path ''
+2024-07-01 11:13:52.324 INFO  com.etc.mywiki.MyWikiApplication                  :56   [32m                  [0;39m Started MyWikiApplication in 1.973 seconds (process running for 2.536)
+2024-07-01 12:06:47.768 INFO  com.etc.mywiki.MyWikiApplication                  :50   [32m                  [0;39m Starting MyWikiApplication using Java 17.0.9 with PID 9108 (E:\Chinasofti_ETC\北京工商学院\MyWiki\target\classes started by Administrator in E:\Chinasofti_ETC\北京工商学院\MyWiki)
+2024-07-01 12:06:47.770 INFO  com.etc.mywiki.MyWikiApplication                  :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-07-01 12:06:48.628 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8080 (http)
+2024-07-01 12:06:48.638 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-01 12:06:48.641 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-07-01 12:06:48.641 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-01 12:06:48.690 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-07-01 12:06:48.690 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 871 ms
+2024-07-01 12:06:49.035 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2024-07-01 12:06:49.049 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8080 (http) with context path ''
+2024-07-01 12:06:49.058 INFO  com.etc.mywiki.MyWikiApplication                  :56   [32m                  [0;39m Started MyWikiApplication in 1.764 seconds (process running for 2.288)
+2024-07-01 12:07:00.846 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-01 12:07:00.846 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2024-07-01 12:07:00.849 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 2 ms
+2024-07-01 13:56:49.517 INFO  com.etc.mywiki.MyWikiApplication                  :50   [32m                  [0;39m Starting MyWikiApplication using Java 17.0.9 with PID 17768 (E:\Chinasofti_ETC\北京工商学院\MyWiki\target\classes started by Administrator in E:\Chinasofti_ETC\北京工商学院\MyWiki)
+2024-07-01 13:56:49.519 INFO  com.etc.mywiki.MyWikiApplication                  :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-07-01 13:56:50.394 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8080 (http)
+2024-07-01 13:56:50.405 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2024-07-01 13:56:50.407 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-07-01 13:56:50.408 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-01 13:56:50.458 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-07-01 13:56:50.458 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 890 ms
+2024-07-01 13:56:50.781 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2024-07-01 13:56:50.797 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8080 (http) with context path ''
+2024-07-01 13:56:50.805 INFO  com.etc.mywiki.MyWikiApplication                  :56   [32m                  [0;39m Started MyWikiApplication in 1.869 seconds (process running for 2.457)
+2024-07-01 13:56:57.286 INFO  org.apache.coyote.http11.Http11Processor          :175  [32m                  [0;39m Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x030x010x860x010x000x010x820x030x03E0x930xe70x84[X0xee ]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:407)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:262)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2024-07-01 13:58:45.286 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-01 13:58:45.287 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2024-07-01 13:58:45.288 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 1 ms
+2024-07-01 14:07:14.213 INFO  com.etc.mywiki.MyWikiApplication                  :50   [32m                  [0;39m Starting MyWikiApplication using Java 17.0.9 with PID 12328 (E:\Chinasofti_ETC\北京工商学院\MyWiki\target\classes started by Administrator in E:\Chinasofti_ETC\北京工商学院\MyWiki)
+2024-07-01 14:07:14.216 INFO  com.etc.mywiki.MyWikiApplication                  :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-07-01 14:07:15.027 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8088 (http)
+2024-07-01 14:07:15.037 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8088"]
+2024-07-01 14:07:15.039 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-07-01 14:07:15.039 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-01 14:07:15.085 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-07-01 14:07:15.085 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 826 ms
+2024-07-01 14:07:15.416 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8088"]
+2024-07-01 14:07:15.432 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8088 (http) with context path ''
+2024-07-01 14:07:15.441 INFO  com.etc.mywiki.MyWikiApplication                  :56   [32m                  [0;39m Started MyWikiApplication in 1.787 seconds (process running for 2.346)
+2024-07-01 14:16:20.569 INFO  com.etc.mywiki.MyWikiApplication                  :50   [32m                  [0;39m Starting MyWikiApplication using Java 17.0.9 with PID 20476 (E:\Chinasofti_ETC\北京工商学院\MyWiki\target\classes started by Administrator in E:\Chinasofti_ETC\北京工商学院\MyWiki)
+2024-07-01 14:16:20.572 INFO  com.etc.mywiki.MyWikiApplication                  :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-07-01 14:16:21.398 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8088 (http)
+2024-07-01 14:16:21.408 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8088"]
+2024-07-01 14:16:21.411 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-07-01 14:16:21.412 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-01 14:16:21.458 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-07-01 14:16:21.459 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 843 ms
+2024-07-01 14:16:21.830 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8088"]
+2024-07-01 14:16:21.845 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8088 (http) with context path ''
+2024-07-01 14:16:21.853 INFO  com.etc.mywiki.MyWikiApplication                  :56   [32m                  [0;39m Started MyWikiApplication in 1.761 seconds (process running for 2.265)
+2024-07-01 14:16:30.663 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-01 14:16:30.664 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2024-07-01 14:16:30.665 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 1 ms
+2024-07-01 14:53:12.116 INFO  com.etc.mywiki.MyWikiApplication                  :50   [32m                  [0;39m Starting MyWikiApplication using Java 17.0.9 with PID 20180 (E:\Chinasofti_ETC\北京工商学院\MyWiki\target\classes started by Administrator in E:\Chinasofti_ETC\北京工商学院\MyWiki)
+2024-07-01 14:53:12.118 INFO  com.etc.mywiki.MyWikiApplication                  :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-07-01 14:53:12.934 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8088 (http)
+2024-07-01 14:53:12.943 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8088"]
+2024-07-01 14:53:12.946 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-07-01 14:53:12.946 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-01 14:53:12.992 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-07-01 14:53:12.992 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 832 ms
+2024-07-01 14:53:13.322 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8088"]
+2024-07-01 14:53:13.338 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8088 (http) with context path ''
+2024-07-01 14:53:13.345 INFO  com.etc.mywiki.MyWikiApplication                  :56   [32m                  [0;39m Started MyWikiApplication in 1.701 seconds (process running for 2.192)
+2024-07-01 14:53:16.409 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-01 14:53:16.409 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2024-07-01 14:53:16.410 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 0 ms
+2024-07-01 15:04:28.499 INFO  com.etc.mywiki.MyWikiApplication                  :50   [32m                  [0;39m Starting MyWikiApplication using Java 17.0.9 with PID 4740 (E:\Chinasofti_ETC\北京工商学院\MyWiki\target\classes started by Administrator in E:\Chinasofti_ETC\北京工商学院\MyWiki)
+2024-07-01 15:04:28.501 INFO  com.etc.mywiki.MyWikiApplication                  :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-07-01 15:04:29.367 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8088 (http)
+2024-07-01 15:04:29.377 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8088"]
+2024-07-01 15:04:29.380 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-07-01 15:04:29.382 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-01 15:04:29.434 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-07-01 15:04:29.435 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 885 ms
+2024-07-01 15:04:29.768 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8088"]
+2024-07-01 15:04:29.782 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8088 (http) with context path ''
+2024-07-01 15:04:29.792 INFO  com.etc.mywiki.MyWikiApplication                  :56   [32m                  [0;39m Started MyWikiApplication in 1.817 seconds (process running for 2.329)
+2024-07-01 15:04:45.216 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-01 15:04:45.217 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2024-07-01 15:04:45.219 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 1 ms
+2024-07-01 16:16:27.222 INFO  com.etc.mywiki.MyWikiApplication                  :50   [32m                  [0;39m Starting MyWikiApplication using Java 17.0.9 with PID 5400 (E:\Chinasofti_ETC\北京工商学院\MyWiki\target\classes started by Administrator in E:\Chinasofti_ETC\北京工商学院\MyWiki)
+2024-07-01 16:16:27.225 INFO  com.etc.mywiki.MyWikiApplication                  :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-07-01 16:16:27.829 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   [32m                  [0;39m No MyBatis mapper was found in '[com.etc.mywiki]' package. Please check your configuration.
+2024-07-01 16:16:28.160 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8088 (http)
+2024-07-01 16:16:28.170 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8088"]
+2024-07-01 16:16:28.173 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-07-01 16:16:28.173 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-01 16:16:28.219 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-07-01 16:16:28.220 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 949 ms
+2024-07-01 16:16:28.282 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:632  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'helloController': Injection of resource dependencies failed
+2024-07-01 16:16:28.285 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2024-07-01 16:16:28.301 INFO  o.s.b.a.logging.ConditionEvaluationReportLogger   :82   [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-07-01 16:16:28.319 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+A component required a bean of type 'com.etc.mywiki.mapper.FruitsMapper' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.etc.mywiki.mapper.FruitsMapper' in your configuration.
+
+2024-07-01 16:18:46.855 INFO  com.etc.mywiki.MyWikiApplication                  :50   [32m                  [0;39m Starting MyWikiApplication using Java 17.0.9 with PID 11620 (E:\Chinasofti_ETC\北京工商学院\MyWiki\target\classes started by Administrator in E:\Chinasofti_ETC\北京工商学院\MyWiki)
+2024-07-01 16:18:46.857 INFO  com.etc.mywiki.MyWikiApplication                  :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-07-01 16:18:47.826 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8088 (http)
+2024-07-01 16:18:47.836 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8088"]
+2024-07-01 16:18:47.837 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-07-01 16:18:47.839 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-01 16:18:47.890 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-07-01 16:18:47.890 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 987 ms
+2024-07-01 16:18:48.411 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8088"]
+2024-07-01 16:18:48.428 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8088 (http) with context path ''
+2024-07-01 16:18:48.437 INFO  com.etc.mywiki.MyWikiApplication                  :56   [32m                  [0;39m Started MyWikiApplication in 2.047 seconds (process running for 2.576)
+2024-07-01 16:19:33.533 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-01 16:19:33.533 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2024-07-01 16:19:33.534 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 1 ms
+2024-07-01 16:19:33.609 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2024-07-01 16:19:33.788 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@177dc2fb
+2024-07-01 16:19:33.791 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2024-07-01 16:20:14.177 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2024-07-01 16:20:14.184 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2024-07-01 16:34:02.255 INFO  com.etc.mywiki.MyWikiApplication                  :50   [32m                  [0;39m Starting MyWikiApplication using Java 17.0.9 with PID 14272 (E:\Chinasofti_ETC\北京工商学院\MyWiki\target\classes started by Administrator in E:\Chinasofti_ETC\北京工商学院\MyWiki)
+2024-07-01 16:34:02.258 INFO  com.etc.mywiki.MyWikiApplication                  :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-07-01 16:34:03.232 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8088 (http)
+2024-07-01 16:34:03.241 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8088"]
+2024-07-01 16:34:03.243 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-07-01 16:34:03.245 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-01 16:34:03.294 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-07-01 16:34:03.294 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 985 ms
+2024-07-01 16:34:03.812 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8088"]
+2024-07-01 16:34:03.828 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8088 (http) with context path ''
+2024-07-01 16:34:03.837 INFO  com.etc.mywiki.MyWikiApplication                  :56   [32m                  [0;39m Started MyWikiApplication in 2.085 seconds (process running for 2.588)
+2024-07-01 16:34:08.950 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-01 16:34:08.951 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2024-07-01 16:34:08.953 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 1 ms
+2024-07-01 16:34:09.058 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2024-07-01 16:34:09.218 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@78709143
+2024-07-01 16:34:09.221 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2024-07-01 16:34:09.363 ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]   :175  [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'on,'%')' at line 1
+### The error may exist in com/etc/mywiki/mapper/FruitsMapper.java (best guess)
+### The error may involve com.etc.mywiki.mapper.FruitsMapper.getFruitsByName-Inline
+### The error occurred while setting parameters
+### SQL: select f_id,s_id,f_name,f_price from fruits where f_name like concat('%',on,'%')
+### Cause: java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'on,'%')' at line 1
+; bad SQL grammar []] with root cause
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'on,'%')' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:121)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.execute(ClientPreparedStatement.java:354)
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44)
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:65)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:80)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:65)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:336)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:158)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:110)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:90)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:154)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:142)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:425)
+	at jdk.proxy2/jdk.proxy2.$Proxy67.selectList(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectList(SqlSessionTemplate.java:224)
+	at org.apache.ibatis.binding.MapperMethod.executeForMany(MapperMethod.java:147)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:80)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy69.getFruitsByName(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:138)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:223)
+	at jdk.proxy2/jdk.proxy2.$Proxy70.getFruitsByName(Unknown Source)
+	at com.etc.mywiki.service.FruitsService.FruitsByName(FruitsService.java:20)
+	at com.etc.mywiki.controller.HelloController.findFruitsByName(HelloController.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+2024-07-01 16:35:28.264 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2024-07-01 16:35:28.271 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2024-07-01 16:35:45.012 INFO  com.etc.mywiki.MyWikiApplication                  :50   [32m                  [0;39m Starting MyWikiApplication using Java 17.0.9 with PID 13992 (E:\Chinasofti_ETC\北京工商学院\MyWiki\target\classes started by Administrator in E:\Chinasofti_ETC\北京工商学院\MyWiki)
+2024-07-01 16:35:45.014 INFO  com.etc.mywiki.MyWikiApplication                  :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-07-01 16:35:46.006 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8088 (http)
+2024-07-01 16:35:46.016 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8088"]
+2024-07-01 16:35:46.018 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-07-01 16:35:46.019 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-01 16:35:46.070 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-07-01 16:35:46.070 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1007 ms
+2024-07-01 16:35:46.589 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8088"]
+2024-07-01 16:35:46.608 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8088 (http) with context path ''
+2024-07-01 16:35:46.616 INFO  com.etc.mywiki.MyWikiApplication                  :56   [32m                  [0;39m Started MyWikiApplication in 2.083 seconds (process running for 2.579)
+2024-07-01 16:35:56.264 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-01 16:35:56.265 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2024-07-01 16:35:56.266 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 1 ms
+2024-07-01 16:35:56.361 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2024-07-01 16:35:56.512 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@440b7c30
+2024-07-01 16:35:56.516 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2024-07-01 16:36:21.251 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2024-07-01 16:36:21.258 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
