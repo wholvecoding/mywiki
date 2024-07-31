@@ -1,0 +1,18 @@
+logging:
+  level:
+    root: info
+---
+spring:
+  profiles: development
+
+logging:
+  level:
+    root: DEBUG
+
+---
+logging:
+  level:
+    root: warn
+spring:
+  profiles: production
+
