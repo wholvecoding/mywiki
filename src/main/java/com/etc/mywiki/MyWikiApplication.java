@@ -17,7 +17,11 @@ public class MyWikiApplication {
 
 	public static void main(String[] args) {
 
-		SpringApplication.run(MyWikiApplication.class, args);
+	SpringApplication.run(MyWikiApplication.class, args);
+//	String[] names= test.getBeanDefinitionNames();
+//	for(String name: names){
+//		System.out.println(name);
+//	}
 	}
 
 }

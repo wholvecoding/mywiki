@@ -1,5 +1,7 @@
 package com.etc.mywiki.config;
 
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
@@ -10,9 +12,10 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 @Configuration
-@EnableWebSecurity//开启Spring Security的功能
+//@EnableWebSecurity//开启Spring Security的功能
 //prePostEnabled属性决定Spring Security在接口前注解是否可用@PreAuthorize,@PostAuthorize等注解,设置为true,会拦截加了这些注解的接口
 @EnableGlobalMethodSecurity(prePostEnabled=true)
+@SpringBootApplication(exclude = { SecurityAutoConfiguration.class })
 public class SecurityConfig  {
 //    @Bean
 //    protected void configure(AuthenticationManagerBuilder auth) throws Exception {
@@ -32,7 +35,7 @@ public class SecurityConfig  {
     /**
      * 指定加密方式
      */
-//    @Bean
+   // @Bean
 //    public PasswordEncoder passwordEncoder(){
 //        // 使用BCrypt加密密码
 //        return new BCryptPasswordEncoder();

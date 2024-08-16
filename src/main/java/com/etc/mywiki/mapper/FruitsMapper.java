@@ -8,7 +8,7 @@ import java.util.List;
 
 @Repository
 public interface FruitsMapper {
-    @Select("select f_id,s_id,f_name,f_price from fruits")
+    @Select("select f_id,s_id, f_name, f_price  from fruits ")
     public List<Fruits> getFruits();
 
     @Select("select f_id,s_id,f_name,f_price from fruits where f_name like concat('%',#{f_name},'%')")
