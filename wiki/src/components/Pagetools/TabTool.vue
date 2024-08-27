@@ -11,10 +11,10 @@ export default  {
 <template>
     <div class="main_top">
         <ul class="clearfix">
-            <li style="margin-left: 200px;"><a href="/" title="返回首页">首页</a></li>
+            <li style="margin-left: 80px;"><a href="/" title="返回首页">首页</a></li>
             <li>
-                <a title="最新热榜单">热榜<i class="icon-down"></i></a>
-                <ul>
+                <a title="最新热榜单">热榜<i ></i></a>
+                <ul class="icon-down"> 
                     <li><a href="/new.html" title="新书推荐">新书推荐</a></li>
                     <li><a href="/hot.html" title="热门书籍">热门书籍</a></li>
                     <li><a href="/monthhot.html" title="月度热门">月度热门</a></li>
@@ -33,19 +33,19 @@ export default  {
 .clearfix{ 
     display: flex;
     justify-content: center;
-    flex-direction: row;
-    justify-content: center;
     margin-left:100px;
   
 }
-.clearfix li {
-    
+.clearfix>li {
+    /* 每个导航项之间增加间距 */
+    margin-right:100px;
     font-size:20px;
     color: rgb(112, 105, 92); /* 默认字体颜色 */
    
 }
 .main_top li a {
     text-decoration: none;
+    writing-mode: horizontal-tb;
     color:aliceblue /* 默认字体颜色 */
 }
 .main_top ul {
@@ -56,11 +56,10 @@ export default  {
     padding: 0;
 }
 
-.main_top li {
-    margin-right: 20px; /* 每个导航项之间增加间距 */
-    margin-right:100px;
+.icon-down{
+    
+    background-color: rgb(112, 105, 92); /* 默认字体颜色 */
 }
-
 .main_top li ul {
     display: none; /* 初始状态下隐藏子菜单 */
     position: absolute; /* 使子菜单在主菜单下方浮动 */

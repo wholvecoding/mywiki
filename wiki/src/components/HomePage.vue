@@ -39,13 +39,13 @@ h3
 .root{
   display: flex;
   flex-direction: row;
-  margin-left:200px;
-  margin-right:200px;
+  padding-left:20px;
+  padding-right:20px;
 }
 .tab{
   background-color: rgb(116, 109, 98);
   
-  height: 40px;;
+  
 }
 .aside {
   width:340.8px;
