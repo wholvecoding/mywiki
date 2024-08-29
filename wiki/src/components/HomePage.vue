@@ -9,6 +9,22 @@
       <div class="tab">
          <TabTool />
       </div>
+      <div class="post">
+        <div class="postBlock">
+      <div class="postTitle">
+
+        <a href="../post/1.html"> test</a>
+      </div>
+          <button @click="TEST">load books</button>
+          <li v-for="book in books" :key="book.id">{{book.id}} by {{book.author}}</li>
+      <div class="postImage">
+
+      </div>
+      <div class="postDescription">
+
+      </div>
+        </div>
+    </div>
     </div>
 
   </body>
@@ -22,6 +38,27 @@ export default {
   components: {
     TabTool,
     AsideTool
+  },
+  data() {
+    return{
+      books :   null,
+
+    }
+
+  },
+  methods: {
+    TEST() {
+      this.$axios.get('/allbooks')
+          .then(response => {
+
+                 this.books = response
+                  console.log("ok",this.books)
+              }
+          ).catch(() => {
+            console.log("err")
+          }
+      )
+    }
   }
 }
 </script>

@@ -23,8 +23,6 @@ export default  {
             </li>
             <li><a href="/all.html" title="最近更新">更新</a></li>
             <li><a href="/cover.html" title="随机找书">随机</a></li>
-            <li><a href="/vedition/" title="V版書籍">V版</a></li>
-            <li><a id="StranLink" class="mochu_cntw" href="javascript:StranBody()" title="点击以简体中文方式浏览">简体</a></li>
         </ul>
     </div>
 </template>

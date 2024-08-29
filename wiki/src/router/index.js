@@ -1,6 +1,10 @@
-import { createRouter, createWebHistory } from 'vue-router';
+
+import  {createApp} from 'vue'
 import HomePage from '../components/HomePage.vue'
-import XSPage from '../components/Pages/XSPage.vue'
+import { createRouter, createWebHistory } from 'vue-router';
+
+
+import App from './../App.vue'
 
 const routes = [
     {
@@ -12,8 +16,12 @@ const routes = [
         component: XSPage
     }
 ]
-const router = createRouter({
-    history: createWebHistory(),
+
+const router =createRouter({
+    history:createWebHistory(),
     routes
-  });
-export default router;
+});
+const app = createApp(App);
+app.use(router);
+app.mount('#app');
+
