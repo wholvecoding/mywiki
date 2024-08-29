@@ -1,12 +1,15 @@
-<template>
-  <div id="app">
-    <router-view></router-view> <!-- 动态渲染与当前路由匹配的组件 -->
-  </div>
-</template>
+  <template>
+    <div id="app">
+      <router-view/> <!-- 动态渲染与当前路由匹配的组件 -->
+    </div>
+  </template>
 
 <script>
+
+
 export default {
-  name: 'App'
+
+  name: 'App',
 };
 </script>
 <style>

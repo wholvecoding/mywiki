@@ -20,13 +20,13 @@
   </template>
   <script>
   import TabTool from '../Pagetools/TabTool.vue'
-  import AsideTool from '../Pagetools/AsideTool.vue'
   import FilterTool from '../Pagetools/FilterTool.vue';
+  import AsideTool from "@/components/Pagetools/AsideTool.vue";
   export default {
     components: {
       TabTool,
-      AsideTool,
-      FilterTool
+      FilterTool,
+      AsideTool
     }
   }
   </script>

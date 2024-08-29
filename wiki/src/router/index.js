@@ -1,27 +1,36 @@
 
-import  {createApp} from 'vue'
 import HomePage from '../components/HomePage.vue'
 import { createRouter, createWebHistory } from 'vue-router';
 
 
-import App from './../App.vue'
+import XSPage from "@/components/Pages/XSPage.vue";
+import ComputerPage from "@/components/Pages/ComputerPage.vue";
+
+
+
 
 const routes = [
     {
         path: '/',
         component: HomePage
+
+
     },
+
     {
         path: '/XS',
         component: XSPage
+    },
+    {
+        path:'/cp',
+        component: ComputerPage
     }
+
 ]
 
 const router =createRouter({
     history:createWebHistory(),
     routes
 });
-const app = createApp(App);
-app.use(router);
-app.mount('#app');
 
+export default router; // 导出路由实例

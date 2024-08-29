@@ -23,11 +23,12 @@
             
 		<li id="navbar-category-20">
             <router-link to="/XS" >小说文学</router-link>
-            
         </li>
 		<li id="navbar-category-1"><a href="/jingjiguangli/" title="经济学管理学市场电子商务">经济管理</a></li>
 		<li id="navbar-category-2"><a href="/lishi/" title="中国世界历史人物传记">历史人物</a></li>
-		<li id="navbar-category-3"><a href="/jisuanji/" title="计算机网络程序设计">计算机类</a></li>
+      <li id="navbar-category-20">
+        <router-link to="/cp" >计算机类</router-link>
+      </li>
 		<li id="navbar-category-4"><a href="/sheke/" title="社会科学语言文字名家作品集">社会科学</a></li>
 		<li id="navbar-category-5"><a href="/xinli/" title="心理疗愈心理学性格色彩">心理科学</a></li>
 		<li id="navbar-category-6"><a href="/lizhi/" title="成功励志心灵人际职场处世">成功励志</a></li>
