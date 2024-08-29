@@ -20,7 +20,11 @@
 	<div class="user"><a href="https://yabook.org/e/member/login/" class="login"> 登入</a>&nbsp;&nbsp;<a href="https://yabook.org/e/member/register/" class="reg"> 注冊</a></div>
 	<div class="menu">
 		<ul>
-		<li id="navbar-category-20"><a href="/xiaoshuo/" title="经典小说文学名著作品">小说文学</a></li>
+            
+		<li id="navbar-category-20">
+            <router-link to="/XS" >小说文学</router-link>
+            
+        </li>
 		<li id="navbar-category-1"><a href="/jingjiguangli/" title="经济学管理学市场电子商务">经济管理</a></li>
 		<li id="navbar-category-2"><a href="/lishi/" title="中国世界历史人物传记">历史人物</a></li>
 		<li id="navbar-category-3"><a href="/jisuanji/" title="计算机网络程序设计">计算机类</a></li>

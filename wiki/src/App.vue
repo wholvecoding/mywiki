@@ -1,24 +1,14 @@
 <template>
   <div id="app">
-    <HomePage>
-     
-    </HomePage>
-    <router-view />
+    <router-view></router-view> <!-- 动态渲染与当前路由匹配的组件 -->
   </div>
 </template>
 
 <script>
-import HomePage from './components/HomePage.vue';
-
 export default {
-  name: 'App',
-  components: {
-    HomePage
-
-  }
-}
+  name: 'App'
+};
 </script>
-
 <style>
 #app
 {
