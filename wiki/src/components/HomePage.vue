@@ -9,22 +9,10 @@
       <div class="tab">
          <TabTool />
       </div>
-      <div class="post">
-        <div class="postBlock">
-      <div class="postTitle">
-
-        <a href="../post/1.html"> test</a>
+      <button @click="TEST">load books</button>
+      <div class="post" v-for="book in books" :key="book.id">
+        <BookComponent :mybook="book"/>
       </div>
-          <button @click="TEST">load books</button>
-          <li v-for="book in books" :key="book.id">{{book.id}} by {{book.author}}</li>
-      <div class="postImage">
-
-      </div>
-      <div class="postDescription">
-
-      </div>
-        </div>
-    </div>
     </div>
 
   </body>
@@ -34,10 +22,12 @@
 <script>
 import TabTool from './Pagetools/TabTool.vue'
 import AsideTool from './Pagetools/AsideTool.vue'
+import BookComponent from "@/components/Pagetools/BookComponent.vue";
 export default {
   components: {
     TabTool,
-    AsideTool
+    AsideTool,
+    BookComponent
   },
   data() {
     return{
