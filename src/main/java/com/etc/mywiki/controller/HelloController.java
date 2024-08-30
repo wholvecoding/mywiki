@@ -1,7 +1,5 @@
 package com.etc.mywiki.controller;
 
-import com.etc.mywiki.domain.Fruits;
-import com.etc.mywiki.service.FruitsService;
 import com.etc.mywiki.vo.User;
 import jakarta.annotation.Resource;
 import org.springframework.beans.factory.annotation.Value;
@@ -25,8 +23,6 @@ public class HelloController {
     @Value("${school.name}")
     private String schoolname;
 
-    @Resource
-    private FruitsService fruitsService;
     /**
      * 控制器方法注解取决于使用哪种http请求方法
      * GET
@@ -63,13 +59,4 @@ public class HelloController {
         return "hello "+user.getName()+" "+user.getAge();
     }
 
-    @GetMapping("/fruits/list")
-    public List<Fruits> fruitsList(){
-        return fruitsService.AllFruits();
-    }
-
-    @PostMapping("/fruits/listname")
-    public List<Fruits> findFruitsByName(@RequestParam("f_name") String f_name){
-        return fruitsService.FruitsByName(f_name);
-    }
 }

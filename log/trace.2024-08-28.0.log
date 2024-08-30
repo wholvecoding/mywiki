@@ -15,8 +15,8 @@
 2024-08-28 16:20:17.141 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
 2024-08-28 16:20:17.280 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1fff434b
 2024-08-28 16:20:17.282 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
-2024-08-28 16:20:17.352 ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]   :175  [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class com.etc.mywiki.domain.Ebook]] with root cause
-com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class com.etc.mywiki.domain.Ebook and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: java.util.ArrayList[0])
+2024-08-28 16:20:17.352 ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]   :175  [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class com.etc.mywiki.domain.ebook]] with root cause
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class com.etc.mywiki.domain.ebook and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: java.util.ArrayList[0])
 	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77)
 	at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1308)
 	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:414)
@@ -97,8 +97,8 @@ com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer fou
 2024-08-28 16:22:59.756 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
 2024-08-28 16:22:59.877 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2a83ed73
 2024-08-28 16:22:59.879 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
-2024-08-28 16:22:59.941 ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]   :175  [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class com.etc.mywiki.domain.Ebook]] with root cause
-com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class com.etc.mywiki.domain.Ebook and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: java.util.ArrayList[0])
+2024-08-28 16:22:59.941 ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet]   :175  [32m                  [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class com.etc.mywiki.domain.ebook]] with root cause
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class com.etc.mywiki.domain.ebook and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: java.util.ArrayList[0])
 	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77)
 	at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1308)
 	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:414)
@@ -259,7 +259,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Parameter 0 of constructor in com.etc.mywiki.domain.Ebook required a bean of type 'long' that could not be found.
+Parameter 0 of constructor in com.etc.mywiki.domain.ebook required a bean of type 'long' that could not be found.
 
 
 Action:
@@ -287,7 +287,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Parameter 0 of constructor in com.etc.mywiki.domain.Ebook required a bean of type 'java.lang.Long' that could not be found.
+Parameter 0 of constructor in com.etc.mywiki.domain.ebook required a bean of type 'java.lang.Long' that could not be found.
 
 
 Action:
@@ -315,7 +315,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Parameter 0 of constructor in com.etc.mywiki.domain.Ebook required a bean of type 'long' that could not be found.
+Parameter 0 of constructor in com.etc.mywiki.domain.ebook required a bean of type 'long' that could not be found.
 
 
 Action:
@@ -343,7 +343,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Parameter 0 of constructor in com.etc.mywiki.domain.Ebook required a bean of type 'long' that could not be found.
+Parameter 0 of constructor in com.etc.mywiki.domain.ebook required a bean of type 'long' that could not be found.
 
 
 Action:
@@ -371,7 +371,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Parameter 0 of constructor in com.etc.mywiki.domain.Ebook required a bean of type 'int' that could not be found.
+Parameter 0 of constructor in com.etc.mywiki.domain.ebook required a bean of type 'int' that could not be found.
 
 
 Action:
@@ -456,7 +456,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Parameter 0 of constructor in com.etc.mywiki.domain.Ebook required a bean of type 'long' that could not be found.
+Parameter 0 of constructor in com.etc.mywiki.domain.ebook required a bean of type 'long' that could not be found.
 
 
 Action:
@@ -503,7 +503,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Parameter 0 of constructor in com.etc.mywiki.domain.Ebook required a bean of type 'int' that could not be found.
+Parameter 0 of constructor in com.etc.mywiki.domain.ebook required a bean of type 'int' that could not be found.
 
 
 Action:
@@ -825,7 +825,7 @@ APPLICATION FAILED TO START
 
 Description:
 
-Parameter 0 of constructor in com.etc.mywiki.domain.Ebook required a bean of type 'int' that could not be found.
+Parameter 0 of constructor in com.etc.mywiki.domain.ebook required a bean of type 'int' that could not be found.
 
 
 Action:
