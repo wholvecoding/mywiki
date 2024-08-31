@@ -1,0 +1,34 @@
+2024-08-29 10:31:36.925 WARN  com.zaxxer.hikari.pool.HikariPool                 :804  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10h38m46s663ms940µs500ns).
+2024-08-29 14:26:36.721 WARN  com.zaxxer.hikari.pool.HikariPool                 :804  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h4m27s301ms601µs900ns).
+2024-08-29 15:27:31.429 INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:650  [32m                  [0;39m Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29 15:27:31.497 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2024-08-29 15:27:31.522 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2024-08-29 15:29:32.834 INFO  com.etc.mywiki.MyWikiApplication                  :50   [32m                  [0;39m Starting MyWikiApplication using Java 21.0.1 with PID 9000 (D:\software\coding\idea\ideacode\mywiki\target\classes started by 13578 in D:\software\coding\idea\ideacode\MyWiki)
+2024-08-29 15:29:32.836 INFO  com.etc.mywiki.MyWikiApplication                  :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-08-29 15:29:33.517 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :143  [32m                  [0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-29 15:29:33.536 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :211  [32m                  [0;39m Finished Spring Data repository scanning in 12 ms. Found 0 JPA repository interfaces.
+2024-08-29 15:29:34.110 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8088 (http)
+2024-08-29 15:29:34.121 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8088"]
+2024-08-29 15:29:34.123 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-08-29 15:29:34.123 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-08-29 15:29:34.186 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-08-29 15:29:34.188 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1308 ms
+2024-08-29 15:29:34.319 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2024-08-29 15:29:34.516 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@350ff014
+2024-08-29 15:29:34.518 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2024-08-29 15:29:34.562 INFO  org.hibernate.jpa.internal.util.LogHelper         :31   [32m                  [0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-29 15:29:34.623 INFO  org.hibernate.Version                             :44   [32m                  [0;39m HHH000412: Hibernate ORM core version 6.4.9.Final
+2024-08-29 15:29:34.659 INFO  o.hibernate.cache.internal.RegionFactoryInitiator :50   [32m                  [0;39m HHH000026: Second-level cache disabled
+2024-08-29 15:29:34.898 INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo :87   [32m                  [0;39m No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-29 15:29:35.316 INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator:58   [32m                  [0;39m HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-29 15:29:35.321 INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:437  [32m                  [0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29 15:29:35.501 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:232  [32m                  [0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-29 15:29:36.035 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8088"]
+2024-08-29 15:29:36.052 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8088 (http) with context path ''
+2024-08-29 15:29:36.060 INFO  com.etc.mywiki.MyWikiApplication                  :56   [32m                  [0;39m Started MyWikiApplication in 3.814 seconds (process running for 7.43)
+2024-08-29 15:48:33.588 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-29 15:48:33.588 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2024-08-29 15:48:33.588 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 0 ms
+2024-08-29 21:04:20.744 INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:650  [32m                  [0;39m Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-29 21:04:20.773 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2024-08-29 21:04:20.781 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.

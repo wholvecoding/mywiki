@@ -9,7 +9,7 @@
       <div class="tab">
          <TabTool />
       </div>
-      <button @click="TEST">load books</button>
+      <button @click="TEST">load the books</button>
       <div class="post" v-for="book in books" :key="book.id">
         <BookComponent :mybook="book"/>
       </div>
