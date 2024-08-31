@@ -1,14 +1,10 @@
 package com.etc.mywiki.mapper;
 
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.etc.mywiki.domain.Ebook;
-import org.apache.ibatis.annotations.Select;
-import org.springframework.stereotype.Repository;
+import org.apache.ibatis.annotations.Mapper;
 
-import java.util.List;
-
-@Repository
-public interface EbookMapper {
-
-    @Select("select id, author, name, description, cover from ebook ")
-    public List<Ebook> getAllBooks();
+@Mapper
+public interface EbookMapper extends BaseMapper<Ebook> {
+    // Custom query methods if needed
 }
