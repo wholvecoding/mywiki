@@ -39,6 +39,7 @@ export default  {
     margin-right:100px;
     font-size:20px;
     color: rgb(112, 105, 92); /* 默认字体颜色 */
+  padding: 20px;
    
 }
 .main_top li a {

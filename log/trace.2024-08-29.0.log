@@ -1,5 +1,6 @@
 2024-08-29 10:31:36.925 WARN  com.zaxxer.hikari.pool.HikariPool                 :804  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10h38m46s663ms940µs500ns).
 2024-08-29 14:26:36.721 WARN  com.zaxxer.hikari.pool.HikariPool                 :804  [32m                  [0;39m HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h4m27s301ms601µs900ns).
+<<<<<<< HEAD
 2024-08-29 15:27:31.429 INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:650  [32m                  [0;39m Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-08-29 15:27:31.497 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
 2024-08-29 15:27:31.522 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
@@ -32,3 +33,5 @@
 2024-08-29 21:04:20.744 INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:650  [32m                  [0;39m Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-08-29 21:04:20.773 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
 2024-08-29 21:04:20.781 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+=======
+>>>>>>> 84c65ef1cfcbfacd482a9e893e38eb8b7f00ea98

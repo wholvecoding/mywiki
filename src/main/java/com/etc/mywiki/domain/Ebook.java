@@ -1,66 +1,45 @@
 package com.etc.mywiki.domain;
 
+import com.baomidou.mybatisplus.annotation.TableName;
+import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.stereotype.Repository;
 
-@Repository
+import java.time.LocalDateTime;
+import java.util.Date;
+
+@Entity
+@TableName("ebooks")
+@Data
+@AllArgsConstructor
 @NoArgsConstructor
 public class Ebook {
 
-    private int  id;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Integer id;
+
+    @Column(nullable = false, length = 255)
+    private String title;
+
+    @Column(length = 100)
     private String author;
-    private String name;
 
-    private int category1id;
-    private String cover;
+    @Column(name = "category_id")
+    private Integer categoryId;
 
-    private String description;
-    private int doc_count;
-    private int view_count;
-    private int vote_count;
+    @Column(name = "published_date")
+    @Temporal(TemporalType.DATE)
+    private Date publishedDate;
 
-    public Ebook(int id) {
-        this.id = id;
-    }
-
-    public String getAuthor() {
-        return author;
-    }
-
-    public void setAuthor(String author) {
-        this.author = author;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getCover() {
-        return cover;
-    }
-
-    public void setCover(String cover) {
-        this.cover = cover;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
-    }
+    @Column(name = "created_at", columnDefinition = "TIMESTAMP DEFAULT CURRENT_TIMESTAMP")
+    private LocalDateTime createdAt;
+    @Column(name="book_cover")
+    private String bookCover;
+    @Column(name="book_outline")
+    private String bookOutline;
+    // Getters and Setters
+    @Column(name="author_outline")
+    private String authorOutline;
 }
-

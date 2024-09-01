@@ -9,7 +9,7 @@
       <div class="tab">
          <TabTool />
       </div>
-      <button @click="TEST">load the books</button>
+
       <div class="post" v-for="book in books" :key="book.id">
         <BookComponent :mybook="book"/>
       </div>
@@ -38,7 +38,7 @@ export default {
   },
   methods: {
     TEST() {
-      this.$axios.get('/allbooks')
+      this.$axios.get('/book/allbooks')
           .then(response => {
 
                  this.books = response
@@ -49,6 +49,9 @@ export default {
           }
       )
     }
+  },
+  mounted() {
+    this.TEST();
   }
 }
 </script>

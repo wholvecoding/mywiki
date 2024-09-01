@@ -5,6 +5,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 
 import XSPage from "@/components/Pages/XSPage.vue";
 import ComputerPage from "@/components/Pages/ComputerPage.vue";
+import BookDetail from "@/components/Pagetools/BookDetail.vue";
 
 
 
@@ -13,8 +14,6 @@ const routes = [
     {
         path: '/',
         component: HomePage
-
-
     },
 
     {
@@ -24,6 +23,11 @@ const routes = [
     {
         path:'/cp',
         component: ComputerPage
+    },
+    {
+        path:'/book/:id',
+        component: BookDetail,
+        props:true
     }
 
 ]
