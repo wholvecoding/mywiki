@@ -8,7 +8,10 @@
       <TabTool />
     </div>
     <div class="book-detail">
-      <h1>{{ book.title }}</h1>
+      <h1>
+        {{ book.title }}
+      <router-link :to="{ name: 'BookReader',params:{ebookId:this.ebookId}}">阅读全文 </router-link>
+      </h1>
       <p><strong>作者:</strong> {{ book.author }}</p>
       <div class="book-image">
         <img :src="getFullPath(book.bookCover)" alt="Book Cover" />
@@ -18,6 +21,10 @@
           <p> {{ book.bookOutline }}</p>
        <p class="label">作者简介</p>
           <p>{{book.authorOutline}} </p>
+      <p class="label">章节</p>
+      <div v-for="chapter in chapters" :key="chapter.id">
+        <p> {{chapter.content}}</p>
+      </div>
 
     </div>
   </div>
@@ -34,21 +41,31 @@ import AsideTool from "@/components/Pagetools/AsideTool.vue";
 
 export default {
   components: { AsideTool, TabTool},
-  props: ['id'], // 接收从路由传来的书籍 ID
+  props: ['ebookId'], // 接收从路由传来的书籍 ID
   data() {
     return {
-      book: {} // 将书籍详细信息存储在这里
+      book: {}, // 将书籍详细信息存储在这里
+      chapters:null
     };
   },
   created() {
     this.fetchBookById(this.id); // 在创建组件时根据ID获取书籍详细信息
+    this.fetchChapterByBookId(this.id);
   },
+
   methods: {
-    fetchBookById(id) {
+    fetchBookById(  ) {
       // 在这里使用实际的API调用，下面是模拟数据
-      this.$axios.get(`/book/${id}`)
+      this.$axios.get(`/book/${this.ebookId}`)
           .then(response=>{
             this.book = response
+          })
+
+    },
+    fetchChapterByBookId(){
+      this.$axios.get(`/books/${this.ebookId}/chapters`)
+          .then(response=>{
+            this.chapters  =response
           })
     },
     getFullPath(coverpath) {
@@ -75,8 +92,8 @@ export default {
 }
 
 .book-image img {
-  width: 500px;
-  height: auto;
+  width: 400px;
+ height: 100%;
   object-fit: cover;
   margin-bottom: 20px;
 }

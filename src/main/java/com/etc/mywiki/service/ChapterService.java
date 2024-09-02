@@ -1,9 +1,12 @@
 package com.etc.mywiki.service;
 
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.etc.mywiki.domain.Chapter;
 import com.etc.mywiki.mapper.ChapterMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 @Service
 public class ChapterService {
@@ -22,5 +25,10 @@ public class ChapterService {
     }
     public void addChapter(Chapter chapter) {
         chapterMapper.insert(chapter);
+    }
+    public List<Chapter> getChapterByEbookId(String ebookId) {
+        QueryWrapper<Chapter> queryWrapper = new QueryWrapper<>();
+        queryWrapper.eq("ebook_id", ebookId);
+        return chapterMapper.selectList(queryWrapper);
     }
 }

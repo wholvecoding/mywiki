@@ -13,25 +13,26 @@ import java.time.LocalDateTime;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@TableName( "chapters")
-public class Chapter {
+@TableName( "pages")
+public class Page {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    @Column(name = "ebook_id")
+    @Column(name = "chapter_id")
     @Nullable
+    private Integer chapterId;
+
+    @Column(name="ebook_id")
     private Integer ebookId;
 
-    @Column(name = "chapter_number", nullable = false)
-    private Integer chapterNumber;
+    @Column(name = "page_number", nullable = false)
+    private Integer pageNumber;
 
     @Column(length = 255)
-    private String title;
-
-    @Column(columnDefinition = "TEXT", nullable = false)
     private String content;
+
 
     @Column(name = "created_at", columnDefinition = "TIMESTAMP DEFAULT CURRENT_TIMESTAMP")
     private LocalDateTime createdAt;
@@ -41,3 +42,4 @@ public class Chapter {
 
     // Getters and Setters
 }
+

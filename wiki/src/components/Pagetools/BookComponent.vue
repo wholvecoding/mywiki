@@ -1,6 +1,10 @@
 <template>
   <div class="book-component">
-    <div class="postTitle">{{ modifiedTitle(mybook.title, mybook.author) }}</div>
+    <div class="postTitle">
+      <router-link :to="`/book/${mybook.id}`" style="text-decoration: none">
+          {{ modifiedTitle(mybook.title, mybook.author) }}
+      </router-link>
+    </div>
     <hr class="divider"/>
     <div class="content-row">
       <div class="postImage">
@@ -10,7 +14,7 @@
         <span v-if="isCollapsed">{{ truncatedOutline }}</span>
         <span v-else>{{ fullOutline }}</span>
           <router-link :to="`/book/${mybook.id}`" class="toggle">
-  {{ isCollapsed ? '展开' : '收起' }}
+  {{ isCollapsed ? '展开全文' : '收起' }}
 </router-link>
 
 
@@ -38,7 +42,7 @@ export default {
       return `内容简介: ${this.mybook.bookOutline}`;
     },
     truncatedOutline() {
-      return `${this.fullOutline.slice(0, this.truncateLength)}...`;
+      return `${this.fullOutline.slice(0, this.truncateLength)}[...]`;
     }
   },
   methods: {
@@ -50,7 +54,8 @@ export default {
     },
     toggleCollapse() {
       this.isCollapsed = !this.isCollapsed;
-    }
+    },
+
   }
 }
 </script>
@@ -84,6 +89,7 @@ export default {
   display: flex;
   align-items: flex-start;
   height: 300px;
+  padding: 40px;
 }
 
 .postImage {
@@ -94,6 +100,7 @@ export default {
   background-color: #f0f0f0;
   overflow: hidden;
   border-radius: 4px;
+
 }
 
 .postImage img {
@@ -116,5 +123,6 @@ export default {
   cursor: pointer;
   font-size: 1em;
   margin-left: 5px; /* 增加一点间距以便更易点击 */
+  text-decoration: none;
 }
 </style>

@@ -1,5 +1,6 @@
 package com.etc.mywiki.controller;
 
+import com.etc.mywiki.domain.Chapter;
 import com.etc.mywiki.domain.Ebook;
 import com.etc.mywiki.service.EbookService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,4 +22,6 @@ public class EbookController {
     }
     @RequestMapping("/{id}")
     public Ebook select_id(@PathVariable int id){ return ebookService.selectAllBooksById(id);}
+
+
 }
