@@ -1,32 +1,42 @@
 <template>
-
+  <body class="root">
+  <div class="aside">
+    <AsideTool/>
+  </div>
+  <div class="main">
+    <div class="tab">
+      <TabTool/>
+    </div>
+  </div>
   <div class="book-reader">
     <div class="sidebar">
       <h3>章节列表</h3>
       <ul>
         <li v-for="chapter in chapters" :key="chapter.id">
-          <router-link
-              :to="{ name: 'BookPage', params: { ebookId: ebookId, chapterId: chapter.chapterNumber   } }"
-          >
-            {{ chapter.title }}
-          </router-link>
+                    <router-link
+                        :to="{ name: 'BookPage', params: { ebookId: ebookId, chapterId: chapter.chapterNumber   } }"
+                    >
+
+          {{ chapter.title }}
+                    </router-link>
+
         </li>
       </ul>
     </div>
-<!--    <div class="content">-->
-<!--      &lt;!&ndash; 这里嵌套 BookPage 组件 &ndash;&gt;-->
-      <BookPage :ebookId="ebookId" :chapterId="chapterId"  />
-<!--&lt;!&ndash;      <div class="pagination-controls">&ndash;&gt;-->
-<!--&lt;!&ndash;        <button @click="prevPage" :disabled="pageNumber <= 1">上一页</button>&ndash;&gt;-->
-<!--&lt;!&ndash;        <button @click="nextPage" :disabled="!hasMoreContent">下一页</button>&ndash;&gt;-->
-<!--&lt;!&ndash;      </div>&ndash;&gt;-->
-    </div>
+
+  </div>
+  </body>
+
 </template>
 
 <script>
 
 
+import AsideTool from "@/components/Pagetools/AsideTool.vue";
+import TabTool from "@/components/Pagetools/TabTool.vue";
+
 export default {
+  components: {TabTool, AsideTool},
 
 
   props: ['ebookId','chapterId'], // 明确表示是电子书 ID
@@ -44,7 +54,7 @@ export default {
   },
   methods: {
     loadChapters(ebookId) {
-      this.$axios.get(`/books/${ebookId}/chapters`)
+      this.$axios.get( `/books/${ebookId}/chapters`)
           .then(response => {
             this.chapters = response; // 使用 response.data
             console.log(this.chapters);
@@ -70,6 +80,25 @@ export default {
 </script>
 
 <style scoped>
+
+.main{
+  display: flex;
+  flex-direction: column;
+}
+.root{
+  display: flex;
+  flex-direction: row;
+  padding-left:20px;
+  padding-right:20px;
+}
+.tab{
+  background-color: rgb(116, 109, 98);
+
+
+}
+.aside {
+  width:340.8px;
+}
 .book-reader {
   display: flex;
   max-width: 1000px;

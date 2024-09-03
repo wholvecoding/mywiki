@@ -1,5 +1,15 @@
 <template>
+  <body class="root">
+  <div class="aside">
+    <AsideTool/>
+  </div>
+  <div class="main">
+    <div class="tab">
+      <TabTool/>
+    </div>
+    <button @click="goBack">返回上一页</button>
   <div class="book-reader">
+
     <div class="chapter-title">{{ chapterTitle }}</div>
     <div class="chapter-content">
       <p v-html="pageContent"></p>
@@ -10,10 +20,16 @@
     </div>
 
   </div>
+  </div>
+  </body>
 </template>
 
 <script>
+import AsideTool from "@/components/Pagetools/AsideTool.vue";
+import TabTool from "@/components/Pagetools/TabTool.vue";
+
 export default {
+  components: {TabTool, AsideTool},
   props: ['ebookId', 'chapterId'], // 接收来自父组件的 props
   data() {
     return {
@@ -27,6 +43,9 @@ export default {
     this.loadPageContent();
   },
   methods: {
+    goBack() {
+      history.back();
+    },
     loadPageContent() {
       this.$axios.get(`/${this.ebookId}/${this.chapterId}/${this.pageNumber}`)
           .then(response => {
@@ -56,13 +75,37 @@ export default {
 </script>
 
 <style scoped>
+
+.main{
+  display: flex;
+  flex-direction: column;
+}
+.root{
+  display: flex;
+  flex-direction: row;
+  padding-left:20px;
+  padding-right:20px;
+}
+.tab{
+  background-color: rgb(116, 109, 98);
+
+
+}
+.aside {
+  width:340.8px;
+}
 .book-reader {
-  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* 确保内容和按钮之间保持空间 */
+  width: 800px;
+  height: 780px; /* 固定高度 */
   margin: 0 auto;
   padding: 20px;
   background-color: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 
 .chapter-title {
   font-size: 1.5em;
@@ -79,5 +122,10 @@ export default {
 .pagination-controls {
   display: flex;
   justify-content: space-between;
+  margin-top: 20px; /* 与内容之间的间距 */
+  padding-top: 10px;
+  border-top: 1px solid #ddd; /* 分隔线 */
+  background-color: #f9f9f9; /* 选配的背景色 */
+  padding: 10px;
 }
 </style>
