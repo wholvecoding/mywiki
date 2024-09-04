@@ -170,3 +170,26 @@ SET FOREIGN_KEY_CHECKS = 1;
 ```
 npm run serve
 ```
+## Exhibition
+### HomePage: Outline of the book
+![Raw GitHub Image](https://github.com/user-attachments/assets/415443a3-525e-4fd7-88a9-6b2bc2f81e4b)
+exp: here show some books, you can click the title or "展开全文" to get a full introduction of the book
+### AsideTool :navigate to the corresponding Category
+![Raw GitHub Image](https://github.com/user-attachments/assets/4faa2f11-4052-4eb5-9696-1287b84aeca4)
+### Choose a specefic book
+once you click the "展开全文",you get the page like 
+![Raw GitHub Image](https://github.com/user-attachments/assets/0d51b1fe-e9b4-4e18-ba05-0f1fb4e3bdb3)
+exp: It's give the full introduction of the book, include the title,the author,the outline of the book and the chapters.<br>
+### Start Reading:choose the Chapter 
+After you click the "阅读全文",the page is like 
+![Raw GitHub Image](https://github.com/user-attachments/assets/f1b88ca1-50a7-47f5-8bfa-122831b3c29f)
+you can click the chapter to futher reading the book
+### Reading
+![Raw GitHub Image](https://github.com/user-attachments/assets/635d19bc-99ce-44bb-9423-86fb13387392) <br>
+you can click the botton at the bottom to choose next page or previous page.<br>
+the top selection help you back to the **Chapter selection**
+
+
+
+
+
