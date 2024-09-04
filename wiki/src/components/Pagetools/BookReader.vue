@@ -7,24 +7,25 @@
     <div class="tab">
       <TabTool/>
     </div>
-  </div>
-  <div class="book-reader">
-    <div class="sidebar">
-      <h3>章节列表</h3>
-      <ul>
-        <li v-for="chapter in chapters" :key="chapter.id">
-                    <router-link
-                        :to="{ name: 'BookPage', params: { ebookId: ebookId, chapterId: chapter.chapterNumber   } }"
-                    >
+    <div class="book-reader">
+      <div class="sidebar">
+        <h3>章节列表</h3>
+        <ul>
+          <li v-for="chapter in chapters" :key="chapter.id">
+            <router-link
+                :to="{ name: 'BookPage', params: { ebookId: ebookId, chapterId: chapter.chapterNumber   } }"
+            >
 
-          {{ chapter.title }}
-                    </router-link>
+              {{ chapter.title }}
+            </router-link>
 
-        </li>
-      </ul>
+          </li>
+        </ul>
+      </div>
+
     </div>
-
   </div>
+
   </body>
 
 </template>

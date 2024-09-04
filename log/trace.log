@@ -1,58 +1,29 @@
-2024-09-03 10:48:12.090 INFO  com.etc.mywiki.MyWikiApplication                  :50   [32m                  [0;39m Starting MyWikiApplication using Java 21.0.1 with PID 4828 (D:\software\coding\idea\ideacode\mywiki\target\classes started by 13578 in D:\software\coding\idea\ideacode\MyWiki)
-2024-09-03 10:48:12.093 INFO  com.etc.mywiki.MyWikiApplication                  :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2024-09-03 10:48:12.885 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :143  [32m                  [0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-09-03 10:48:12.911 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :211  [32m                  [0;39m Finished Spring Data repository scanning in 15 ms. Found 0 JPA repository interfaces.
-2024-09-03 10:48:13.485 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8088 (http)
-2024-09-03 10:48:13.497 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8088"]
-2024-09-03 10:48:13.499 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2024-09-03 10:48:13.500 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.25]
-2024-09-03 10:48:13.560 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2024-09-03 10:48:13.561 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1420 ms
-2024-09-03 10:48:13.719 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
-2024-09-03 10:48:13.881 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@79ab97fd
-2024-09-03 10:48:13.883 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
-2024-09-03 10:48:13.928 INFO  org.hibernate.jpa.internal.util.LogHelper         :31   [32m                  [0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-09-03 10:48:14.013 INFO  org.hibernate.Version                             :44   [32m                  [0;39m HHH000412: Hibernate ORM core version 6.4.9.Final
-2024-09-03 10:48:14.057 INFO  o.hibernate.cache.internal.RegionFactoryInitiator :50   [32m                  [0;39m HHH000026: Second-level cache disabled
-2024-09-03 10:48:14.311 INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo :87   [32m                  [0;39m No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-09-03 10:48:15.274 INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator:58   [32m                  [0;39m HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-09-03 10:48:15.277 INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:437  [32m                  [0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-09-03 10:48:15.663 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:232  [32m                  [0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-09-03 10:48:16.501 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8088"]
-2024-09-03 10:48:16.528 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8088 (http) with context path ''
-2024-09-03 10:48:16.544 INFO  com.etc.mywiki.MyWikiApplication                  :56   [32m                  [0;39m Started MyWikiApplication in 4.991 seconds (process running for 8.547)
-2024-09-03 10:48:26.613 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-09-03 10:48:26.613 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2024-09-03 10:48:26.615 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 1 ms
-2024-09-03 11:08:27.473 INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:650  [32m                  [0;39m Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-09-03 11:08:27.476 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
-2024-09-03 11:08:27.484 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
-2024-09-03 11:08:31.965 INFO  com.etc.mywiki.MyWikiApplication                  :50   [32m                  [0;39m Starting MyWikiApplication using Java 21.0.1 with PID 17748 (D:\software\coding\idea\ideacode\mywiki\target\classes started by 13578 in D:\software\coding\idea\ideacode\MyWiki)
-2024-09-03 11:08:31.967 INFO  com.etc.mywiki.MyWikiApplication                  :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
-2024-09-03 11:08:32.565 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :143  [32m                  [0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2024-09-03 11:08:32.583 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :211  [32m                  [0;39m Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
-2024-09-03 11:08:33.030 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8088 (http)
-2024-09-03 11:08:33.039 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8088"]
-2024-09-03 11:08:33.041 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
-2024-09-03 11:08:33.041 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.25]
-2024-09-03 11:08:33.087 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
-2024-09-03 11:08:33.088 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1082 ms
-2024-09-03 11:08:33.199 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
-2024-09-03 11:08:33.328 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@26275b46
-2024-09-03 11:08:33.330 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
-2024-09-03 11:08:33.363 INFO  org.hibernate.jpa.internal.util.LogHelper         :31   [32m                  [0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
-2024-09-03 11:08:33.406 INFO  org.hibernate.Version                             :44   [32m                  [0;39m HHH000412: Hibernate ORM core version 6.4.9.Final
-2024-09-03 11:08:33.431 INFO  o.hibernate.cache.internal.RegionFactoryInitiator :50   [32m                  [0;39m HHH000026: Second-level cache disabled
-2024-09-03 11:08:33.636 INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo :87   [32m                  [0;39m No LoadTimeWeaver setup: ignoring JPA class transformer
-2024-09-03 11:08:34.379 INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator:58   [32m                  [0;39m HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2024-09-03 11:08:34.382 INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:437  [32m                  [0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
-2024-09-03 11:08:34.673 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:232  [32m                  [0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-09-03 11:08:35.154 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8088"]
-2024-09-03 11:08:35.167 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8088 (http) with context path ''
-2024-09-03 11:08:35.173 INFO  com.etc.mywiki.MyWikiApplication                  :56   [32m                  [0;39m Started MyWikiApplication in 3.634 seconds (process running for 4.242)
-2024-09-03 11:09:11.999 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-09-03 11:09:11.999 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
-2024-09-03 11:09:12.000 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 1 ms
-2024-09-03 14:05:13.062 INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:650  [32m                  [0;39m Closing JPA EntityManagerFactory for persistence unit 'default'
-2024-09-03 14:05:13.067 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
-2024-09-03 14:05:13.069 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.
+2024-09-04 20:31:26.769 INFO  com.etc.mywiki.MyWikiApplication                  :50   [32m                  [0;39m Starting MyWikiApplication using Java 21.0.1 with PID 11008 (D:\software\coding\idea\ideacode\mywiki\target\classes started by 13578 in D:\software\coding\idea\ideacode\MyWiki)
+2024-09-04 20:31:26.772 INFO  com.etc.mywiki.MyWikiApplication                  :654  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-09-04 20:31:27.571 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :143  [32m                  [0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-04 20:31:27.592 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :211  [32m                  [0;39m Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces.
+2024-09-04 20:31:28.114 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :109  [32m                  [0;39m Tomcat initialized with port 8088 (http)
+2024-09-04 20:31:28.125 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8088"]
+2024-09-04 20:31:28.127 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-09-04 20:31:28.127 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-09-04 20:31:28.185 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-09-04 20:31:28.186 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :296  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1366 ms
+2024-09-04 20:31:28.330 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m                  [0;39m HikariPool-1 - Starting...
+2024-09-04 20:31:28.470 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m                  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a9b41a0
+2024-09-04 20:31:28.472 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m                  [0;39m HikariPool-1 - Start completed.
+2024-09-04 20:31:28.513 INFO  org.hibernate.jpa.internal.util.LogHelper         :31   [32m                  [0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-04 20:31:28.582 INFO  org.hibernate.Version                             :44   [32m                  [0;39m HHH000412: Hibernate ORM core version 6.4.9.Final
+2024-09-04 20:31:28.618 INFO  o.hibernate.cache.internal.RegionFactoryInitiator :50   [32m                  [0;39m HHH000026: Second-level cache disabled
+2024-09-04 20:31:28.905 INFO  o.s.o.j.persistenceunit.SpringPersistenceUnitInfo :87   [32m                  [0;39m No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-04 20:31:29.856 INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator:58   [32m                  [0;39m HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-04 20:31:29.859 INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:437  [32m                  [0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-04 20:31:30.184 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:232  [32m                  [0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-04 20:31:30.728 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8088"]
+2024-09-04 20:31:30.742 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :241  [32m                  [0;39m Tomcat started on port 8088 (http) with context path ''
+2024-09-04 20:31:30.749 INFO  com.etc.mywiki.MyWikiApplication                  :56   [32m                  [0;39m Started MyWikiApplication in 4.512 seconds (process running for 7.977)
+2024-09-04 20:31:38.853 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-04 20:31:38.854 INFO  org.springframework.web.servlet.DispatcherServlet :532  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2024-09-04 20:31:38.855 INFO  org.springframework.web.servlet.DispatcherServlet :554  [32m                  [0;39m Completed initialization in 1 ms
+2024-09-04 20:43:30.194 INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean:650  [32m                  [0;39m Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-04 20:43:30.196 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2024-09-04 20:43:30.205 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.

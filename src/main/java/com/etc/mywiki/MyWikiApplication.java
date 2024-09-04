@@ -12,7 +12,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * SpringApplication.run(MyWikiApplication.class, args)将项目的入口类的对象进行管理
  */
 @SpringBootApplication
-@MapperScan("com.etc.mywiki.mapper")
 public class MyWikiApplication {
 
 	public static void main(String[] args) {

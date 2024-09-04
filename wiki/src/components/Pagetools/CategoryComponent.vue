@@ -8,13 +8,25 @@
       <TabTool />
     </div>
 
-    <div>
-      <h1>{{ categoryName }} 的书籍</h1>
-      <ul>
-        <li v-for="book in books" :key="book.id">
-          {{ book.title }}
-        </li>
-      </ul>
+    <div class="book-detail" v-for="book in books" v-bind:key="book.id">
+      <h1>
+        {{ book.title }}
+        <router-link :to="{ name: 'BookReader',params:{ebookId:book.id}}">阅读全文 </router-link>
+      </h1>
+      <p><strong>作者:</strong> {{ book.author }}</p>
+      <div class="book-image">
+        <img :src="getFullPath(book.bookCover)" alt="Book Cover" />
+      </div>
+
+      <p class="label">内容简介</p>
+      <p> {{ book.bookOutline }}</p>
+      <p class="label">作者简介</p>
+      <p>{{book.authorOutline}} </p>
+      <p class="label">章节</p>
+      <div v-for="chapter in chapters" :key="chapter.id">
+        <p> {{chapter.content}}</p>
+      </div>
+
     </div>
   </div>
 
@@ -39,6 +51,9 @@ export default {
     this.fetchBooksByCategory(this.categoryId);
   },
   methods: {
+    getFullPath(coverpath) {
+      return `/bookcover/${coverpath}`;
+    },
     fetchBooksByCategory(categoryId) {
       // 这里使用实际的API调用获取相应类别的书籍
       this.$axios.get(`/book/category/${categoryId}`)
@@ -71,7 +86,10 @@ export default {
 
 <style scoped>
 /* 根据需要设置样式 */
-
+.label {
+  text-align: left;
+  background-color: #cccccc;
+}
 .main{
   display: flex;
   flex-direction: column;
