@@ -17,7 +17,7 @@
 			<input type="hidden" name="tempid" value="1">
 		</form>
 	</div>
-	<div class="user"><a href="https://yabook.org/e/member/login/" class="login"> 登入</a>&nbsp;&nbsp;<a href="https://yabook.org/e/member/register/" class="reg"> 注冊</a></div>
+	<div class="user"><a href="/login" class="login"> 登入</a>&nbsp;&nbsp;<a href="/register" class="reg"> 注冊</a></div>
 	<div class="menu">
 		<ul>
   <li>
